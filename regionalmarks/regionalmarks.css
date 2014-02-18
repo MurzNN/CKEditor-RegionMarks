@@ -1,0 +1,36 @@
+
+.wysiwyg-regionalmarks-start,
+.wysiwyg-regionalmarks-end {
+  font-size: 9px;
+  display: block;
+  text-align: center;
+/*   display: inline; */
+/*   border: 0; */
+  border: 2px solid #808000;
+  padding: 2px;
+  margin: 0;
+/*   margin-top: 1em; */
+  width: 95%;
+  height: 12px;
+  background: #FFFFC0;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wysiwyg-regionalmarks-start {
+  margin-top: 1em;
+  border-top-width: 3px;
+  border-bottom-width: 0;
+  border-radius: 5px 5px 0 0;
+  background-image: linear-gradient(to top, #FFFFFF 0%, #FFFFC0 100%);
+}
+
+.wysiwyg-regionalmarks-end {
+  margin-bottom: 1em;
+  border-top-width: 0;
+  border-bottom-width: 3px;
+  border-radius: 0 0 5px 5px;
+  background-image: linear-gradient(to top, ##FFFFC0FFFFFF 0%, #FFFFFF 100%);
+}
